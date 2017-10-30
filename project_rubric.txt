@@ -1,0 +1,29 @@
+RUBRIC
+***********************************************************************************
+Report Queries (These will need to be included in the final report)
+List the number of health supporters that were authorized in the month of September 2016 by patients suffering from heart disease.
+Give the number of patients who were not complying with the recommended frequency of recording observations.
+List the health supporters who themselves are patients.
+List the patients who are not ‘sick’.
+How many patients have different observation time and recording time (of the observation).
+
+Dates for choosing demo date, final demo and submission would be in mid-October (To be finalized later)
+Choose demo time slots - Every team is required to select a particular time slot on a google sheet (which will be made available by then) from the ones available for the demo. Time slots will be allocated on a first come first serve basis.
+Final submission contains the following components:
+Final Report - The final report should be a discussion of what was done and explanation of design choices. At the very least, it should include the following:
+ER Diagram:   a listing of entity and relationship types and a sentence description for each and list of key, participation constraints and other constraints represented in the ER model, along with a sentence description for each.
+Relational Model:   a list of tables, 2 - 3 sentences description of each including what constraints it encodes, the SQL for the table, a listing of functional dependencies, a discussion of normal form choices faced and justification for decision made.
+Constraints:  a description of constraints that were not implemented as part of table definitions and why and how they were implemented. In particular, a separate subsection here should highlight constraints that couldn’t be implemented in the database at all and had to be implemented in application code. Note that a key part of assessing your design is how well you used the DBMS to implement constraints vs. implementing in application code.  
+SQL queries and snapshots of the results- a listing of the sql (report) queries. (These queries need to be run on the sample data that will be provided by the TAs)
+Executable file ( Ex - JAR file) and source Java Code
+README.txt - This should contain the names of the members of the team and any additional instructions that you might want to add that will be necessary to execute your code.
+Final Demo - You will be required to give a demo of the project to the TAs at designated time slot that you selected. At the time of demo, please ensure that the database contains only the sample data that will be provided by the TAs in due time. Failure to adhere to this will lead to some points deduction.
+Late submission - Teams that fail to meet the deadline will need to submit their project by a late deadline (to be finalized later) with some penalty.    
+
+
+Rubric
+Report 1 + Report 2 - 10%
+ER Diagram - 20%
+Relational Model + Constraints - 20%
+Report Queries - 20%
+Demo - 30%
